@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Big+Shoulders+Text:100,300,400,700|Share+Tech+Mono&display=swap');
+
+:root {
+  --text-color: #d9dbde;
+  --link-color: #a3a8ae;
+  --body-bg-color: #161719;
+  --page-shadow-color: rgba(29,31,33,1);
+  --page-shadow-blur-radius: 30px;
+  --border-radius: 8px;
+
+  --main-bg-color-1: #1d1f21;
+  --main-bg-color-2: #292c2f;
+  --main-bg-color-3: #3b3e40;
+  --main-fg-color-0: #ededed;
+  --main-fg-color-2: #a3a8ae;
+  --main-fg-color-3: #868989;
+
+}
+
+body {
+  font-family: 'Big Shoulders Text', cursive;
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+  padding: 30px;
+  margin: 0;
+}
+a {
+  color: var(--link-color);
+}
+#page {
+    font-weight: 400;
+    background-color: var(--main-bg-color-2);
+    border-radius: var(--border-radius);
+    margin: 0 auto;
+    padding: 0.1em 1em;
+    -webkit-box-shadow: inset 0px 0px var(--page-shadow-blur-radius) 0px var(--page-shadow-color);
+    -moz-box-shadow: inset 0px 0px var(--page-shadow-blur-radius) 0px var(--page-shadow-color);
+    box-shadow: inset 0px 0px var(--page-shadow-blur-radius) 0px var(--page-shadow-color);
+}
+div.disclaimer {
+  border: 2px solid var(--main-bg-color-3);
+  font-family: 'Big Shoulders Text', sans-serif;
+  font-weight: 300;
+}
+div.disclaimer p {
+  font-weight: 400;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 3ex;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Indie Flower', cursive;
+  margin-top: 4ex;
+  border-bottom: solid 1px #ffe9ce;
+}
+h3 {
+  font-family: 'Indie Flower', cursive;
+  margin-top: 3ex;
+}
+
+.mono {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.thin { font-weight: 100; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.bold { font-weight: 700; }
