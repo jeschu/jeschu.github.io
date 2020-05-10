@@ -1,3 +1,0 @@
-## Info
-
-Bla bla bla ...
