@@ -36,3 +36,5 @@ Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Ei
 ## Sie erreichen mich unter folgenden Kontaktdaten
 
 Mail: jeschu(at)ok.de
+
+&copy; Jens Schumacher
